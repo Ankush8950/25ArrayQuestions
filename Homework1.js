@@ -160,11 +160,12 @@
 // 16. Get radius using prompt and calculate the area of a circle(area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
 // let pi = 3.14
-// function findarea(){
+// function findarea(r){
 //     return (pi * r * r )
 // }
 
-// let r = prompt("e")
+// let r = findarea(5)
+// console.log(r)
 
 // 17. Create a human readable time format using the Date time object
 //     -
@@ -190,8 +191,36 @@
 
 // 22. Write a program which tells the number of days in a month.
 
-function monthDay(month,year){
-    return new Date(year,month).getDate()
-}
+// function monthDay(month,year){
+//     return new Date(year,month,0).getDate()
+// }
 
-console.log(monthDay(2,2023))
+// console.log(monthDay(1,2023))
+
+
+
+
+// 30. Write a script which generates a random hexadecimal number.
+// function randHex(num){
+// let hexChar = ['0', '1', '2', '3', '4', '5',
+//     '6', '7', '8', '9', 'A', 'B',
+//     'C', 'D', 'E', 'F'
+// ];
+
+// for( let i = 0; i<num; i++){
+//     console.log(hexChar[Math.floor(Math.random()*16)])
+// }
+
+// }
+// let num = 5
+// randHex(num)
+
+
+
+// 35. Write a functions which checks if all items are unique in the array.
+
+// const uniqueTtem = (item) => 
+//     item.length === new Set(item).size 
+
+// console.log(uniqueTtem([1,1,2,3,4]));
+// console.log(uniqueTtem([1, 2, 3, 4]));
